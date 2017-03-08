@@ -39,6 +39,10 @@ class EltiempoParser
     html_scraper.css('dd.ddTemp').text
   end
 
+  def all_cities
+    urlcities.keys
+  end
+
   private
 
   def fetch_city_doc city
