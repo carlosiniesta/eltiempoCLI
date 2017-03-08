@@ -3,6 +3,8 @@
 
 Git clone this repo.
 
+bundle install
+
 ## Usage
 
 bundle exec bin/eltiempo 
