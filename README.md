@@ -1,15 +1,14 @@
 
 ## Installation
 
-Git clone this repo.
-
-bundle install
+Gem install eltiempo
 
 ## Usage
 
-bundle exec bin/eltiempo 
+eltiempo [command] [city]
+
+eltiempo -today Barcelona
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
