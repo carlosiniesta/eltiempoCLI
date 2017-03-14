@@ -25,7 +25,7 @@ module Eltiempo
 
     desc "av_min", "display week average minimun temperature in city"
     def av_min city
-      puts "Average maximum temperature of the week in #{city} " + @eltiempoparser.average_temp(city, "min").to_s + "º"
+      puts "Average minimun temperature of the week in #{city} " + @eltiempoparser.average_temp(city, "min").to_s + "º"
     end
 
     desc "cities", "display names of all available cities"
